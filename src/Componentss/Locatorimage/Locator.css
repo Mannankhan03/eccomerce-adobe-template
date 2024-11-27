@@ -1,0 +1,92 @@
+.locator-adventures{
+    display: flex;
+    padding: 40px 160px;
+    margin-top: 30px;
+
+}
+
+
+.adventure-image img{
+    width: 552px;
+    height: 241px;
+}
+
+
+.adventure-content-buttons{
+    background-color: black;
+    color: white;
+    width:100%;
+    height: 293px;
+    
+  
+    display: flex;
+    flex-direction: column;
+    margin-top: -27px;
+}
+.adventure-content-buttons button{
+    width: 139px;
+    background: transparent;
+    color: white;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.adventure-content-deatils{
+    margin-left: 100px;
+    margin-top: 36px;
+}
+
+@media (max-width: 768px) {
+    .locator-adventures {
+        padding: 20px 40px; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .adventure-image img{
+    width: 425px;
+    height: 241px;
+}
+  
+    .adventure-content-deatils {
+        margin-left: 0;
+        text-align: center; 
+    }
+  
+    .adventure-content-buttons {
+        margin-top: 20px; 
+    }
+  
+    .adventure-content-buttons button {
+        width: 100%; 
+        max-width: none; 
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .locator-adventures {
+        padding: 10px 20px; 
+    }
+  
+    .adventure-content-buttons {
+       padding: 15px;
+        position: relative;
+        top: -71px;
+        width: 327px;
+    }
+  
+    .adventure-content-buttons button {
+       width:41%;
+        font-size: 14px;
+        height: 41px;
+    
+    }
+  }
+
+  @media (max-width: 768px) {
+    .adventure-image img {
+        width: 375px;
+        height: 241px;
+    }
+    }

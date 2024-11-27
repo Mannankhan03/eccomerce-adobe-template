@@ -1,0 +1,145 @@
+.banner-container{
+    display: flex;
+    width: 100%; 
+    overflow: hidden;
+}
+.banner{
+    background-color: rgba(128, 128, 128, 0.511);
+    height: 390px;
+    width: 100%;
+}
+.content{
+    padding: 50px 60px
+
+
+}
+.content p{
+  padding: 0px 50px;
+  margin-left: -50px;
+}
+span{
+    display : block;
+}
+
+.content button{
+    width : 150px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0.811);
+    border : none;
+    color : white;
+    border-radius: 5px
+}
+.banner-image img{
+   height: 390px
+}
+@media (max-width: 768px) {
+
+    .banner-container{
+       display:flex;
+        flex-direction:column;
+    }
+    .banner {
+        height: 0px; 
+    }
+
+    .content {
+        padding: 20px;
+        max-width: 385px;
+        position: absolute;
+        z-index: 20;
+        height: 312px;
+        overflow: hidden;
+        margin-top: 225px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+    }
+
+    .content h1 {
+        font-size: 24px; 
+        font-family: ubuntu, sans-serif;
+        position: relative;
+        left: 120px;
+    }
+
+    .content p {
+        padding: 0px 0px; 
+        margin-left: 20px;
+    }
+    .content span{
+    margin-left: -40px
+    }
+
+    .content button {
+        width: 40%; 
+        font-size: 13px;
+        height: 40px; 
+        position: relative;
+        left: 112px;
+    }
+    .banner-image img{
+        width: 424px;
+        height: 576px;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 370px) {
+  .banner-container {
+      display: flex;
+      flex-direction: column; 
+  }
+
+  .banner {
+      height: 0px; 
+  }
+
+  .content {
+      padding: 15px;
+      max-width: 300px; 
+      position: absolute;
+      z-index: 20;
+      height: auto; 
+      overflow: hidden;
+      margin-top: 180px; 
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+
+  .content h1 {
+      font-size: 20px; 
+      font-family: Ubuntu, sans-serif;
+      margin-left: 0; 
+      text-align: center; 
+  }
+
+  .content p {
+      padding: 0; 
+      margin-left: 0; 
+      text-align: center;
+      font-size: 14px; 
+  }
+
+.banner-image img {
+ width: 375px;
+ height: 576px;
+ object-fit: cover;
+}
+
+  .content span {
+      margin-left: 0; 
+      text-align: center; 
+  }
+
+  .content button {
+      width: 80%; 
+      font-size: 12px; 
+      height: 35px;  
+      position: relative;
+      left: 112px;
+      bottom:30px
+      display: block;
+  }
+
+}
